@@ -14,3 +14,13 @@ public:
 	static int Random(int min, int max);
 };
 #endif
+int Utils::Random(int min, int max)
+{
+int random = rand() % (max - min + 1) + min;
+return random;
+}
+int Utils::random(int min, int max)
+{
+int random = rand() % max + min;
+return random;
+}
