@@ -1,0 +1,6 @@
+/build
+/bin
+/debug
+*.sdf
+*.txt
+!/data/text
